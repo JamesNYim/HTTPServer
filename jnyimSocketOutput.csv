@@ -1,0 +1,25 @@
+Client request served,4-Tuple:,127.0.0.1,6969,127.0.0.1,57409,Requested URL,.//,HTTP/1.1 200 OK,Bytes transmitted:,416
+Client request served,4-Tuple:,127.0.0.1,6969,127.0.0.1,57413,Requested URL,./,HTTP/1.1 200 OK,Bytes transmitted:,416
+Client request served,4-Tuple:,127.0.0.1,6969,127.0.0.1,57422,Requested URL,.//,HTTP/1.1 200 OK,Bytes transmitted:,416
+Client request served,4-Tuple:,127.0.0.1,6969,127.0.0.1,57431,Requested URL,./,HTTP/1.1 200 OK,Bytes transmitted:,416
+Client request served,4-Tuple:,127.0.0.1,6969,127.0.0.1,57434,Requested URL,./filesystem/,HTTP/1.1 200 OK,Bytes transmitted:,288
+Client request served,4-Tuple:,127.0.0.1,25565,127.0.0.1,50849,Requested URL,serverData/,HTTP/1.1 200 OK,Bytes transmitted:,192
+Client request served,4-Tuple:,127.0.0.1,25565,127.0.0.1,50857,Requested URL,serverData//,HTTP/1.1 200 OK,Bytes transmitted:,192
+Client request served,4-Tuple:,127.0.0.1,25564,127.0.0.1,50860,Requested URL,serverData/,HTTP/1.1 200 OK,Bytes transmitted:,192
+Client request served,4-Tuple:,127.0.0.1,25564,127.0.0.1,50865,Requested URL,serverData/,HTTP/1.1 200 OK,Bytes transmitted:,192
+Client request served,4-Tuple:,127.0.0.1,25564,127.0.0.1,50868,Requested URL,serverData/,HTTP/1.1 200 OK,Bytes transmitted:,192
+Client request served,4-Tuple:,127.0.0.1,25564,127.0.0.1,50887,Requested URL,serverData/,HTTP/1.1 200 OK,Bytes transmitted:,192
+Client request served,4-Tuple:,127.0.0.1,25565,127.0.0.1,50891,Requested URL,serverData/,HTTP/1.1 200 OK,Bytes transmitted:,192
+Client request served,4-Tuple:,127.0.0.1,25565,127.0.0.1,50902,Requested URL,serverData/,HTTP/1.1 200 OK,Bytes transmitted:,192
+Client request served,4-Tuple:,127.0.0.1,25564,127.0.0.1,50915,Requested URL,serverData/,HTTP/1.1 200 OK,Bytes transmitted:,192
+Client request served,4-Tuple:,127.0.0.1,25564,127.0.0.1,50933,Requested URL,/,HTTP/1.1 200 OK,Bytes transmitted:,640
+Client request served,4-Tuple:,127.0.0.1,25564,127.0.0.1,50937,Requested URL,/,HTTP/1.1 200 OK,Bytes transmitted:,640
+Client request served,4-Tuple:,127.0.0.1,25565,127.0.0.1,50940,Requested URL,/,HTTP/1.1 200 OK,Bytes transmitted:,640
+Client request served,4-Tuple:,127.0.0.1,25564,127.0.0.1,50944,Requested URL,/README.docx,HTTP/1.1 404 Not Found,Bytes transmitted:,0
+Client request served,4-Tuple:,127.0.0.1,25565,127.0.0.1,50949,Requested URL,/HelloWorld.html,HTTP/1.1 404 Not Found,Bytes transmitted:,0
+Client request served,4-Tuple:,127.0.0.1,25564,127.0.0.1,50967,Requested URL,/HelloWorld.html,HTTP/1.1 404 Not Found,Bytes transmitted:,0
+Client request served,4-Tuple:,127.0.0.1,25564,127.0.0.1,50976,Requested URL,HTTP/1.1,HTTP/1.1 404 Not Found,Bytes transmitted:,0
+Client request served,4-Tuple:,127.0.0.1,25564,127.0.0.1,50991,Requested URL,HTTP/1.1,HTTP/1.1 404 Not Found,Bytes transmitted:,0
+Client request served,4-Tuple:,127.0.0.1,25564,127.0.0.1,50998,Requested URL,HTTP/1.1,HTTP/1.1 404 Not Found,Bytes transmitted:,0
+Client request served,4-Tuple:,127.0.0.1,25565,127.0.0.1,51019,Requested URL,HTTP/1.1,HTTP/1.1 404 Not Found,Bytes transmitted:,0
+Client request served,4-Tuple:,127.0.0.1,25565,127.0.0.1,51028,Requested URL,HTTP/1.1,HTTP/1.1 404 Not Found,Bytes transmitted:,0
