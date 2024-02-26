@@ -1,3 +1,6 @@
-HTTP/1.1 404 Not Found
+HTTP/1.1 200 OK
 
-Date: Mon, 26 Feb 2024 08:24:05 GMT
+Content-Type: text/javascript
+Content-Length: 5196
+Date: Mon, 26 Feb 2024 09:16:34 GMT
+Last-Modified: Mon, 26 Feb 2024 08:23:28 GMT
