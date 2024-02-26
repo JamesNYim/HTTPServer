@@ -15,9 +15,14 @@ In the command line run the command
 python3 httpServer.py -p [PortNumber] -d [FileDirectory]
 ```
 The deafult IP address is ``127.0.0.1``.
+An example file directory is ``2048``
 To use in a browser, type in the IP address followed by the port number followed by the file to access. 
 For example: 
 ```md 
 127.0.0.1:25565/index.html
 ```
+
+#### note
+When typing in the ``[FileDirectory]`` do not type in the ``\`` at the end of the directory name.
+Example: ``Directory`` 
 
