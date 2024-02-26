@@ -12,11 +12,11 @@ parser.add_argument('-d', "--Directory", type = str)
 args = parser.parse_args()
 
 portNum = args.Port
-filePath = args.Directory
+dataPath = args.Directory
 
 ipAdd = "127.0.0.1"
-httpFileName = "jnyimHTTPResponses.txt"
-csvFileName = "jnyimSocketOutput.csv"
+httpFileName = "HTTPResponses.txt"
+csvFileName = "SocketOutput.csv"
 
 #Mime Types
 mimeTypes = {".csv": "text/csv", 
@@ -30,10 +30,12 @@ mimeTypes = {".csv": "text/csv",
 			"png": "image/png",
 			"txt": "text/plain",
 			"zip": "application/zip",
-			"pdf": "application/pdf"}
+			"pdf": "application/pdf",
+			"css": "text/css",
+			"js": "text/javascript"}
 
 # Checking if file directory exists
-if (not os.path.exists(filePath)):
+if (not os.path.exists(dataPath)):
 	print(f"<{filePath}> does not exist", file=sys.stderr)
 	exit()
 
@@ -73,9 +75,14 @@ while True:
 	
 	# Getting Client Request and processing it
 	requestMsg = clientSocket.recv(1024).decode() # Getting request message
+	print("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
+	print(dataPath)
+	print("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
 	print(requestMsg)
-	filePath = requestMsg.split()[2] # Getting file name from request message
+	print("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
+	filePath = dataPath + requestMsg.split()[1] # Getting file name from request message
 	print(filePath)
+	print("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
 	httpVer = requestMsg.split()[2]
 	httpMethod = requestMsg.split()[0]
 
@@ -145,8 +152,8 @@ while True:
 		
 		# Writing the rest of the http header
 		print(filePath)
-		print("200 OK -------------------")
-		mimeType = filePath.split(".")[2]
+		print("200 OK")
+		mimeType = filePath.split(".")[1]
 		httpHeader += f"Content-Type: {mimeTypes[mimeType]}\n"
 		httpHeader += f"Content-Length: {os.path.getsize(filePath)}\n"
 		httpHeader += "Date: " + time.strftime("%a, %d %b %Y %I:%M:%S GMT\n", time.gmtime())
@@ -171,8 +178,7 @@ while True:
 		httpFile = open(httpFileName, "w")
 		#print(httpHeader)
 		httpFile.write(httpHeader)
-		httpFile.close()	
-	exit()	
+		httpFile.close()		
 	
 
 
