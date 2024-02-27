@@ -23,6 +23,6 @@ For example:
 ```
 
 #### note
-When typing in the ``[FileDirectory]`` do not type in the ``\`` at the end of the directory name.
+When typing in the ``[FileDirectory]`` do not type in the ``/`` at the end of the directory name.
 Example: ``Directory`` 
 
